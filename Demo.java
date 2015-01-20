@@ -7,8 +7,8 @@ public class Demo {
 		this.firstnumber = firstnumber;
 		this.lastnumber = lastnumber;
 	}
-	public int addNumbers(){
-		return firstnumber + lastnumber;
+	public int substractNumbers(){
+		return firstnumber - lastnumber;
 	}
 	
 	public int multiplyNumbers(){
