@@ -1,0 +1,27 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.test.Demo;;
+
+public class DemoTest {
+
+	@Test
+	public void testAddNumbers() {
+		Demo t1 = new Demo(4, 5);
+		assertEquals(t1.addNumbers(),4);	
+	}
+
+	@Test
+	public void testMultiplyNumbers() {
+		Demo t1 = new Demo(4, 0);
+		assertEquals(t1.multiplyNumbers(),0);
+	}
+
+	@Test
+	public void testDevideNumbers() {
+		Demo t1 = new Demo(4, 0);
+		assertEquals(t1.multiplyNumbers(),0);
+	}
+
+}
